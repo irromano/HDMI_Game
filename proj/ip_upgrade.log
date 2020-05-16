@@ -1,0 +1,483 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1.3 (win64) Build 2644227 Wed Sep  4 09:45:24 MDT 2019
+| Date         : Mon May 11 05:29:17 2020
+| Host         : DESKTOP-OK65T6V running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_out_xlconstant_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_out_xlconstant_1_0 (xilinx.com:ip:xlconstant:1.1) from (Rev. 2) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1.3 (win64) Build 2644227 Wed Sep  4 09:45:24 MDT 2019
+| Date         : Mon May 11 05:29:17 2020
+| Host         : DESKTOP-OK65T6V running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_out_xlconstant_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_out_xlconstant_0_0 (xilinx.com:ip:xlconstant:1.1) from (Rev. 2) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1.3 (win64) Build 2644227 Wed Sep  4 09:45:24 MDT 2019
+| Date         : Mon May 11 05:29:17 2020
+| Host         : DESKTOP-OK65T6V running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_out_xlconcat_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_out_xlconcat_0_0 (xilinx.com:ip:xlconcat:2.1) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1.3 (win64) Build 2644227 Wed Sep  4 09:45:24 MDT 2019
+| Date         : Mon May 11 05:29:17 2020
+| Host         : DESKTOP-OK65T6V running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_out_v_tc_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_out_v_tc_0_0 (xilinx.com:ip:v_tc:6.1) from (Rev. 10) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1.3 (win64) Build 2644227 Wed Sep  4 09:45:24 MDT 2019
+| Date         : Mon May 11 05:29:17 2020
+| Host         : DESKTOP-OK65T6V running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_out_v_axi4s_vid_out_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of hdmi_out_v_axi4s_vid_out_0_0 (xilinx.com:ip:v_axi4s_vid_out:4.0) from (Rev. 5) to (Rev. 10)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'hdmi_out_v_axi4s_vid_out_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'fifo_read_level'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1.3 (win64) Build 2644227 Wed Sep  4 09:45:24 MDT 2019
+| Date         : Mon May 11 05:29:17 2020
+| Host         : DESKTOP-OK65T6V running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_out_rgb2dvi_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of hdmi_out_rgb2dvi_0_0 from digilentinc.com:ip:rgb2dvi:1.3 (Rev. 2) to digilentinc.com:ip:rgb2dvi:1.4 (Rev. 7)
+
+After upgrade, an IP may have parameter differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'hdmi_out_rgb2dvi_0_0'.
+
+
+-Upgrade has added interface 'TMDS_Clk_n' (xilinx.com:signal:clock:1.0)
+
+-Upgrade has added interface 'TMDS_Clk_p' (xilinx.com:signal:clock:1.0)
+
+
+3. Customization warnings
+-------------------------
+
+An attempt to modify the value of disabled parameter 'kClkRange' from '1' to '2' has been ignored for IP 'hdmi_out_rgb2dvi_0_0'
+
+
+4. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv digilentinc.com:ip:rgb2dvi:1.4 -user_name hdmi_out_rgb2dvi_0_0
+set_property -dict "\
+  CONFIG.AsyncRst.POLARITY {ACTIVE_HIGH} \
+  CONFIG.AsyncRst_n.POLARITY {ACTIVE_LOW} \
+  CONFIG.Component_Name {hdmi_out_rgb2dvi_0_0} \
+  CONFIG.PixelClk.ASSOCIATED_BUSIF {} \
+  CONFIG.PixelClk.ASSOCIATED_RESET {} \
+  CONFIG.PixelClk.CLK_DOMAIN {hdmi_out_axi_dynclk_0_0_PXL_CLK_O} \
+  CONFIG.PixelClk.FREQ_HZ {100000000} \
+  CONFIG.PixelClk.PHASE {0.000} \
+  CONFIG.SerialClk.ASSOCIATED_BUSIF {} \
+  CONFIG.SerialClk.ASSOCIATED_RESET {aRst:aRst_n:pRst:pRst_n} \
+  CONFIG.SerialClk.CLK_DOMAIN {hdmi_out_axi_dynclk_0_0_PXL_CLK_5X_O} \
+  CONFIG.SerialClk.FREQ_HZ {100000000} \
+  CONFIG.SerialClk.PHASE {0.000} \
+  CONFIG.TMDS.BOARD.ASSOCIATED_PARAM {TMDS_BOARD_INTERFACE} \
+  CONFIG.TMDS_BOARD_INTERFACE {} \
+  CONFIG.kClkPrimitive {PLL} \
+  CONFIG.kClkRange {2} \
+  CONFIG.kGenerateSerialClk {false} \
+  CONFIG.kRstActiveHigh {false} " [get_ips hdmi_out_rgb2dvi_0_0]
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1.3 (win64) Build 2644227 Wed Sep  4 09:45:24 MDT 2019
+| Date         : Mon May 11 05:29:17 2020
+| Host         : DESKTOP-OK65T6V running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_out_processing_system7_0_axi_periph_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_out_processing_system7_0_axi_periph_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 12) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1.3 (win64) Build 2644227 Wed Sep  4 09:45:24 MDT 2019
+| Date         : Mon May 11 05:29:17 2020
+| Host         : DESKTOP-OK65T6V running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_out_processing_system7_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_out_processing_system7_0_0 (xilinx.com:ip:processing_system7:5.5) from (Rev. 3) to (Rev. 6)
+
+2. Upgrade messages
+-------------------
+
+WARNING: upgrade cannot add parameter PCW_TRACE_INTERNAL_WIDTH with default value 32 : a parameter called PCW_TRACE_INTERNAL_WIDTH already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_USE_AXI_NONSECURE with default value 0 : a parameter called PCW_USE_AXI_NONSECURE already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_NUM_WRITE_THREADS with default value 4 : a parameter called PCW_GP0_NUM_WRITE_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_NUM_READ_THREADS with default value 4 : a parameter called PCW_GP0_NUM_READ_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_NUM_WRITE_THREADS with default value 4 : a parameter called PCW_GP1_NUM_WRITE_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_NUM_READ_THREADS with default value 4 : a parameter called PCW_GP1_NUM_READ_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_EN_MODIFIABLE_TXN with default value 0 : a parameter called PCW_GP0_EN_MODIFIABLE_TXN already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_EN_MODIFIABLE_TXN with default value 0 : a parameter called PCW_GP1_EN_MODIFIABLE_TXN already exists in processing_system7_v5_5
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1.3 (win64) Build 2644227 Wed Sep  4 09:45:24 MDT 2019
+| Date         : Mon May 11 05:29:17 2020
+| Host         : DESKTOP-OK65T6V running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_out_proc_sys_reset_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_out_proc_sys_reset_1_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 10) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1.3 (win64) Build 2644227 Wed Sep  4 09:45:24 MDT 2019
+| Date         : Mon May 11 05:29:17 2020
+| Host         : DESKTOP-OK65T6V running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_out_proc_sys_reset_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_out_proc_sys_reset_0_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 10) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1.3 (win64) Build 2644227 Wed Sep  4 09:45:24 MDT 2019
+| Date         : Mon May 11 05:29:17 2020
+| Host         : DESKTOP-OK65T6V running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_out_axis_subset_converter_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_out_axis_subset_converter_0_0 (xilinx.com:ip:axis_subset_converter:1.1) from (Rev. 11) to (Rev. 19)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1.3 (win64) Build 2644227 Wed Sep  4 09:45:24 MDT 2019
+| Date         : Mon May 11 05:29:17 2020
+| Host         : DESKTOP-OK65T6V running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_out_axi_vdma_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_out_axi_vdma_0_0 from xilinx.com:ip:axi_vdma:6.2 (Rev. 10) to xilinx.com:ip:axi_vdma:6.3 (Rev. 7)
+
+2. Upgrade messages
+-------------------
+
+Added parameter c_enable_all with value 1 (source 'default')
+Added parameter c_enable_mm2s_rst_out with value 1 (source 'default')
+Added parameter c_enable_mm2s_buf_empty with value 1 (source 'default')
+Added parameter c_enable_mm2s_param_updt with value 1 (source 'default')
+Added parameter c_enable_mm2s_fsync_out with value 1 (source 'default')
+Added parameter c_enable_tstvec with value 1 (source 'default')
+Added parameter c_enable_mm2s_frmstr_reg with value 1 (source 'default')
+Added parameter c_enable_mm2s_delay_counter with value 1 (source 'default')
+Added parameter c_enable_mm2s_frm_counter with value 1 (source 'default')
+Added parameter c_enable_s2mm_rst_out with value 1 (source 'default')
+Added parameter c_enable_s2mm_buf_full with value 1 (source 'default')
+Added parameter c_enable_s2mm_param_updt with value 1 (source 'default')
+Added parameter c_enable_s2mm_fsync_out with value 1 (source 'default')
+Added parameter c_enable_s2mm_sts_reg with value 1 (source 'default')
+Added parameter c_enable_s2mm_frmstr_reg with value 1 (source 'default')
+Added parameter c_enable_s2mm_delay_counter with value 1 (source 'default')
+Added parameter c_enable_s2mm_frm_counter with value 1 (source 'default')
+Set parameter c_enable_all to value 0 (source 'default')
+Set parameter c_enable_mm2s_rst_out to value 0 (source 'default')
+Set parameter c_enable_mm2s_buf_empty to value 0 (source 'default')
+Set parameter c_enable_mm2s_param_updt to value 0 (source 'default')
+Set parameter c_enable_mm2s_fsync_out to value 0 (source 'default')
+Set parameter c_enable_tstvec to value 0 (source 'default')
+Set parameter c_enable_mm2s_frmstr_reg to value 0 (source 'default')
+Set parameter c_enable_mm2s_delay_counter to value 1 (source 'default')
+Set parameter c_enable_mm2s_frm_counter to value 1 (source 'default')
+Set parameter c_enable_s2mm_rst_out to value 0 (source 'default')
+Set parameter c_enable_s2mm_buf_full to value 0 (source 'default')
+Set parameter c_enable_s2mm_param_updt to value 0 (source 'default')
+Set parameter c_enable_s2mm_fsync_out to value 0 (source 'default')
+Set parameter c_enable_s2mm_sts_reg to value 0 (source 'default')
+Set parameter c_enable_s2mm_frmstr_reg to value 0 (source 'default')
+Set parameter c_enable_s2mm_delay_counter to value 1 (source 'default')
+Set parameter c_enable_s2mm_frm_counter to value 1 (source 'default')
+Removed parameter c_enable_debug_all
+Removed parameter c_enable_debug_info_0
+Removed parameter c_enable_debug_info_1
+Removed parameter c_enable_debug_info_2
+Removed parameter c_enable_debug_info_3
+Removed parameter c_enable_debug_info_4
+Removed parameter c_enable_debug_info_5
+Removed parameter c_enable_debug_info_6
+Removed parameter c_enable_debug_info_7
+Removed parameter c_enable_debug_info_8
+Removed parameter c_enable_debug_info_9
+Removed parameter c_enable_debug_info_10
+Removed parameter c_enable_debug_info_11
+Removed parameter c_enable_debug_info_12
+Removed parameter c_enable_debug_info_13
+Removed parameter c_enable_debug_info_14
+Removed parameter c_enable_debug_info_15
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1.3 (win64) Build 2644227 Wed Sep  4 09:45:24 MDT 2019
+| Date         : Mon May 11 05:29:17 2020
+| Host         : DESKTOP-OK65T6V running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_out_axi_mem_intercon_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_out_axi_mem_intercon_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 12) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1.3 (win64) Build 2644227 Wed Sep  4 09:45:24 MDT 2019
+| Date         : Mon May 11 05:29:17 2020
+| Host         : DESKTOP-OK65T6V running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_out_axi_gpio_sw_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_out_axi_gpio_sw_0 (xilinx.com:ip:axi_gpio:2.0) from (Rev. 13) to (Rev. 21)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1.3 (win64) Build 2644227 Wed Sep  4 09:45:24 MDT 2019
+| Date         : Mon May 11 05:29:17 2020
+| Host         : DESKTOP-OK65T6V running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_out_axi_gpio_led_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_out_axi_gpio_led_0 (xilinx.com:ip:axi_gpio:2.0) from (Rev. 13) to (Rev. 21)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1.3 (win64) Build 2644227 Wed Sep  4 09:45:24 MDT 2019
+| Date         : Mon May 11 05:29:17 2020
+| Host         : DESKTOP-OK65T6V running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_out_axi_gpio_hdmi_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_out_axi_gpio_hdmi_0 (xilinx.com:ip:axi_gpio:2.0) from (Rev. 13) to (Rev. 21)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1.3 (win64) Build 2644227 Wed Sep  4 09:45:24 MDT 2019
+| Date         : Mon May 11 05:29:17 2020
+| Host         : DESKTOP-OK65T6V running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'hdmi_out_axi_gpio_btn_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of hdmi_out_axi_gpio_btn_0 (xilinx.com:ip:axi_gpio:2.0) from (Rev. 13) to (Rev. 21)
+
